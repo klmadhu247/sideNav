@@ -19,6 +19,8 @@ body{
     border-top-right-radius: 5px;
     background-color: white;
     
+    transition: all 5s ease-in-out;
+    
 }
 
 .fa-bars
@@ -107,8 +109,9 @@ body{
 
   .menulist_closed
 {
+    
     display: none;
-    right: -100%;
+   
     transition: all 1s ease-in-out;
   
 }
